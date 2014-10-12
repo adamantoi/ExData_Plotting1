@@ -33,7 +33,7 @@ points(data$TD, data$Sub_metering_2, col="red", type="l")
 points(data$TD, data$Sub_metering_3, col="blue", type="l")
 legend("topright",
        legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), 
-       lwd="1",col=c("black", "red", "blue"), cex = 0.5, bty="n")
+       lwd=1,col=c("black", "red", "blue"), cex = 0.5, bty="n")
 
 ## Date with Global_reactive_power
 plot(data$TD, data$Global_reactive_power, xlab="datetime", ylab="Global_reactive_power",
